@@ -1,5 +1,40 @@
-<<<<<<< HEAD
-# Meu Portfólio
-=======
-# portfolio
->>>>>>> 2372826c7b57cb176c29baa4ff9593680439768d
+Meu Portfólio 👨‍💻
+Opa Eai?
+Criei esse portfólio pra mostrar os projetos que eu tô desenvolvendo e minha evolução como dev. Além de ser minha vitrine, também é onde eu coloco em prática o que tô aprendendo de front-end.
+O que usei no projeto
+HTML
+CSS
+JavaScript
+React
+Tailwind CSS
+O que ele tem
+Design moderno e responsivo (abre de boa no celular também)
+Uma área falando sobre mim
+Meus projetos organizados
+Links pra minhas redes
+Onde me encontrar
+Dá uma olhada
+Repositório: https://github.com/arthur-barbieri1/portfolio
+Como o projeto tá organizado
+text
+portfolio
+├── public
+├── src
+├── components
+├── pages
+└── README.md
+Quer rodar na sua máquina?
+Só seguir o passo a passo:
+bash
+Clonar o projeto
+git clone https://github.com/arthur-barbieri1/portfolio.git
+Entrar na pasta
+cd portfolio
+Instalar as dependências
+npm install
+Rodar o projeto
+npm run dev
+Quem é o louco que fez isso?
+Arthur Barbieri - um dev tentando melhorar a cada dia 🚀
+GitHub: https://github.com/arthur-barbieri1
+Se gostou do projeto, deixa uma estrelinha lá no repositório, ajuda muito! ⭐
