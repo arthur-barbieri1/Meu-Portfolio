@@ -33,6 +33,7 @@ O projeto está disponível em:
 
 ## 📂 Como o projeto tá organizado
 
+```text
 portfolio/
 ├── public/
 ├── src/
@@ -42,7 +43,6 @@ portfolio/
 │   │   └── Projects.jsx
 │   └── pages/
 └── README.md
-
 
 ## 💻 Quer rodar na sua máquina?
 
