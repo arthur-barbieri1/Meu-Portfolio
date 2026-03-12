@@ -29,7 +29,7 @@ O formulário de contato **agora está funcionando**! Manda uma mensagem que che
 ## 🚀 Deploy
 
 O projeto está disponível em:
-🔗 **https://arthur-barbier-portfolio.vercel.app**
+🔗 **https://arthur-barbieri-portfolio.vercel.app**
 
 ## 📂 Como o projeto tá organizado
 
