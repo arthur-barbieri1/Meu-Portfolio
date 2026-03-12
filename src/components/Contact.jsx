@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useRef } from 'react'
 import { BiSend, BiUser, BiEnvelope, BiMessageDetail } from 'react-icons/bi'
 import emailjs from '@emailjs/browser'
@@ -30,6 +31,16 @@ const Contact = () => {
     <div id='contato' className='flex min-h-screen w-full flex-col items-center justify-center gap-12 p-6 md:p-8 drop-shadow-lg'>
       <div className="text-center max-w-lg">
         <h1 className='text-4xl md:text-5xl font-bold text-gray-800 mb-4 underline decoration-gray-300 decoration-2' style={{ textUnderlineOffset: '10px' }}>
+=======
+import React from 'react'
+import { BiSend, BiUser, BiEnvelope, BiMessageDetail } from 'react-icons/bi'
+
+const Contact = () => {
+  return (
+    <div id='contato' className='flex min-h-screen w-full flex-col items-center justify-center gap-12 p-6 md:p-8'>
+      <div className="text-center max-w-lg">
+        <h1 className='text-4xl md:text-5xl font-bold text-gray-800 mb-4'>
+>>>>>>> fce4a7c3117a09fd48b31c679be6993035d9b309
           Bora conversar?
         </h1>
         <p className='text-gray-600 text-lg'>
@@ -37,15 +48,23 @@ const Contact = () => {
         </p>
       </div>
 
+<<<<<<< HEAD
       <form ref={form} onSubmit={sendEmail} className='w-full max-w-md space-y-5'>
+=======
+      <form className='w-full max-w-md space-y-5'>
+>>>>>>> fce4a7c3117a09fd48b31c679be6993035d9b309
         <div className='space-y-5'>
           <div className='relative'>
             <BiUser className='absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400' />
             <input
               type="text"
+<<<<<<< HEAD
               name="nome"
               placeholder='Seu nome'
               required
+=======
+              placeholder='Seu nome'
+>>>>>>> fce4a7c3117a09fd48b31c679be6993035d9b309
               className='w-full rounded-lg border border-gray-300 pl-10 pr-4 py-3 outline-none focus:border-[#6A8EAE] focus:ring-1 focus:ring-[#6A8EAE] bg-white'
             />
           </div>
@@ -54,9 +73,13 @@ const Contact = () => {
             <BiEnvelope className='absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400' />
             <input
               type="email"
+<<<<<<< HEAD
               name="email"
               placeholder='Seu email'
               required
+=======
+              placeholder='Seu email'
+>>>>>>> fce4a7c3117a09fd48b31c679be6993035d9b309
               className='w-full rounded-lg border border-gray-300 pl-10 pr-4 py-3 outline-none focus:border-[#955BA5] focus:ring-1 focus:ring-[#955BA5] bg-white'
             />
           </div>
@@ -65,19 +88,30 @@ const Contact = () => {
         <div className='relative'>
           <BiMessageDetail className='absolute left-3 top-4 text-gray-400' />
           <textarea
+<<<<<<< HEAD
             name="mensagem"
             placeholder='Fala aqui...'
             rows={5}
             required
+=======
+            placeholder='Fala ai...'
+            rows={5}
+>>>>>>> fce4a7c3117a09fd48b31c679be6993035d9b309
             className='w-full rounded-lg border border-gray-300 pl-10 pr-4 py-3 outline-none focus:border-[#57CC99] focus:ring-1 focus:ring-[#57CC99] resize-none bg-white'
           ></textarea>
         </div>
 
         <button
           type="submit"
+<<<<<<< HEAD
           className='w-full bg-gray-800 text-white rounded-lg px-6 py-3 font-medium transition-all duration-300 hover:bg-gray-700 flex items-center justify-center gap-2 group'
         >
           <BiSend className='text-2xl group-hover:translate-x-1 transition-transform duration-300' />
+=======
+          className='w-full bg-gray-800 text-white rounded-lg px-6 py-3 font-medium transition-all duration-300 hover:bg-gray-700 flex items-center justify-center gap-2'
+        >
+          <BiSend className='text-lg' />
+>>>>>>> fce4a7c3117a09fd48b31c679be6993035d9b309
           Enviar mensagem
         </button>
       </form>
